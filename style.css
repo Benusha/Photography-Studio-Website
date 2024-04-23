@@ -1,0 +1,763 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+	margin:0;
+	padding:0;
+}
+.banner{
+	width:100%;
+	height:1200px;
+	background: url("image/Artboard 1_waifu2x_.png");
+	margin:0 auto;
+	position: relative;
+	background-size: cover;
+}
+.banner img{
+	width:100%;
+	height:917px;
+	
+}
+.nav{
+	width:1266px;
+	height:200px;
+/*	background-color: blue;*/
+	margin: 0 auto;
+	display:flex;
+	justify-content: space-between;
+}
+.nava{
+	width:440px;
+	height: 100px;
+/*	background-color: red;*/
+/*	float: left;*/
+	padding-top: 104px;
+}
+.nava ul{
+	display:flex;
+	justify-content: space-between;
+}
+.nava ul li{
+	list-style: none;
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size:24px;
+/*	padding:30px;*/
+}
+.nava ul li a{
+	text-decoration: none;
+	color: #121f38;
+}
+.nava ul li:nth-child(2)::after{
+	width:100%;
+	height:2px;
+	content:'';
+	display: block;
+	transform: scale(0);
+	background-color:#c78665;
+	
+}
+.nava ul li:nth-child(3)::after{
+	width:100%;
+	height:2px;
+	content:'';
+	display: block;
+	transform: scale(0);
+	background-color:#c78665;
+	
+}
+.nava ul li:nth-child(2):hover::after{
+	transform: scale(1);
+}
+.nava ul li:nth-child(3):hover::after{
+	transform: scale(1);
+}
+.active::after{
+	width:100%;
+	height:2px;
+	content:'';
+	display: block;
+	transform: scale(1);
+	background-color:#c78665;
+}
+.logo{
+	width:172px;
+	height:126px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+.logo img{
+	width:172px;
+	height:126px;
+}
+.navb{
+	width:440px;
+	height: 100px;
+	padding-top: 107px;
+}
+.navb ul{
+	display:flex;
+	justify-content: space-between;
+}
+.navb ul li{
+	list-style: none;
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size:24px;
+}
+.navb ul li a{
+	text-decoration: none;
+	color: #121f38;
+}
+.navb ul li:nth-child(1)::after{
+	width:100%;
+	height:2px;
+	content:'';
+	display: block;
+	transform: scale(0);
+	background-color:#c78665;
+	
+}
+.navb ul li:nth-child(2)::after{
+	width:100%;
+	height:2px;
+	content:'';
+	display: block;
+	transform: scale(0);
+	background-color:#c78665;
+	
+}
+.navb ul li:nth-child(3)::after{
+	width:100%;
+	height:2px;
+	content:'';
+	display: block;
+	transform: scale(0);
+	background-color:#c78665;
+	
+}
+.navb ul li:nth-child(1):hover::after{
+	transform: scale(1);
+}
+.navb ul li:nth-child(2):hover::after{
+	transform: scale(1);
+}
+.navb ul li:nth-child(3):hover::after{
+	transform: scale(1);
+}
+.search{
+	width:1266px;
+	height:60px;
+	position:relative;
+	margin-top:450px;
+	top:700px;
+	margin: 0 auto;
+}
+.search input{
+	width:550px;
+	height:59px;
+	background: rgba(18,31,56,.30);
+	border:1px solid white;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	padding-left: 30px;
+	border-radius: 5px;
+	outline: none;
+	font-size: 24px;
+}
+
+.search button{
+	width:38px;
+	height:43px;
+	background: rgba(18,31,56,0);
+/*	background: url("image/search icon.png");*/
+	border: none;
+	position:absolute;
+	right:1px;
+	top:8px;
+/*	background-color: brown;*/
+	left:530px;
+}
+.search button img{
+	width:33px;
+	height:35px;
+}
+.search button img:hover{
+	cursor:pointer;
+	opacity: 0.5;
+}
+.search p{
+	width:150px;
+	height:30px;
+/*	background-color:aquamarine;*/
+/*	margin-left:100px;*/
+	text-align:center;
+	padding-top:12px;
+	color:white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	border:5px solid #121f38;
+/*	position: absolute;*/
+	bottom: 80px;
+	margin-top:50px;
+}
+.search p:hover{
+	cursor:pointer;
+	background-color:green;
+	opacity: 0.8;
+}
+.aboutus{
+	width:1178px;
+	height:606px;
+/*	background-color: aquamarine;*/
+	padding-top:50px;
+	margin: 0 auto;
+}
+.imga img{
+	width:607px;
+	height:606px;
+	float:right;
+	position: relative;
+}
+.contenta{
+	width:626.36px;
+	height:500.18px;
+	background-color: #edf5f7;
+	position:absolute;
+	margin-top:52.91px;
+	padding-left:25px;
+}
+.contenta h3{
+	font-size:75.88px;
+	color: #c78665;
+	font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif; 
+}
+.contenta p{
+	font-size:24px;
+	margin-top:90px;
+	font-family: 'Roboto', sans-serif;
+	color:#04070E;
+}
+.catagories h3{
+	width:1178px;
+	font-size:57.08px;
+	font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif; 
+	text-align:center;
+	color:#121f38;
+	padding-bottom:50px;
+	padding-top:50px; 
+	margin: 0 auto;
+}
+
+.contentb{
+	width:1366px;
+	height:542px;
+	background-color:#edf5f7;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.leftarrow{
+	width:50px;
+	height:50px;
+	float: left;
+}
+.leftarrow img{
+	width:40px;
+	height:40px;
+}
+.leftarrow img:hover{
+	cursor:pointer;
+	opacity: 0.5;
+}
+.cat{
+	width:300px;
+	height:300px;
+	position: relative;
+	border-top-left-radius:80px; 
+	border-top-right-radius:25px; 
+	box-sizing: border-box;
+}
+.imagebox{
+	position: relative;
+	overflow: hidden;
+	max-width: 100%;
+	max-height: 100%;
+	border-top-left-radius:80px; 
+	border-top-right-radius:25px; 
+}
+.imagebox img{
+	max-width: 100%;
+	transition: transform 2s;
+}
+.contentb .cat:hover .imagebox img{
+	cursor:pointer;
+	transform: scale(1.2);
+}
+.details{
+	top:150px;
+	position: absolute;
+	background: rgba(0,0,0,1);
+	transform:scaleY(0);
+	transition: transform .5s;
+}
+.contentb .cat:hover .details{
+	transform:scaleY(1); 
+}
+.content{
+	width:300px;
+	top:50%;
+	transform:translateY(-50%);
+	text-align:center;
+	color:#c78665;
+	font-size: 35px;
+	font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif; 
+	font-weight:600;
+	position: absolute;
+}
+.rightarrow{
+	width:50px;
+	height:50px;
+	float: right;
+}
+.rightarrow img{
+	width:40px;
+	height:40px;
+}
+.rightarrow img:hover{
+	cursor:pointer;
+	opacity: 0.5;
+}
+.services h3{
+	width:1178px;
+	font-size:57.08px;
+	font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif; 
+	text-align:center;
+/*	background-color: aqua;*/
+	color:#121f38;
+	padding-bottom:50px;
+	margin: 0 auto;
+}
+.services{
+	width:1178px;
+	height:990px;
+/*	background-color: red;*/
+	margin: 0 auto;
+	position: relative;
+	margin-top: 50px;
+}
+.candidimg{
+	width:577px;
+	height:384px;
+/*	background-color:orange; */
+	position: absolute;
+}
+.candidimg img{
+	width:577px;
+	height:384px;
+}
+
+.candid h4{
+	font-size:40px;
+	color:#c78665;
+	font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif; 
+	font-weight: 600;
+}
+.candid p{
+	font-size:24px;
+	margin-top:40px;
+	font-family: 'Roboto', sans-serif;
+	color:#04070E;
+}
+.candid{
+	width:510px;
+	height:384px;
+	position: absolute;
+	left:630px;
+	top:160px;
+/*	background-color:orange; */
+}
+.traditionalimg{
+	width:577px;
+	height:384px;
+/*	background-color:orange; */
+/*	position: absolute;*/
+	float:right;
+	margin-top: 400px;
+}
+.traditionalimg img{
+	width:577px;
+	height:384px;
+}
+.traditional h4{
+	font-size:40px;
+	color:#c78665;
+	margin-top:450px;
+	font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
+	font-weight: 600;
+}
+
+.traditional p{
+	font-size:24px;
+	margin-top:40px;
+	font-family: 'Roboto', sans-serif;
+	color:#04070E;
+	
+}
+.traditional{
+	width:530px;
+	height:384px;
+	margin-left:50px;
+/*	background-color:orange;*/
+}
+.load{
+	width:120px;
+	height:30px;
+	background-color:#c78665;
+	margin: 0 auto;
+	border-radius: 5px;
+	text-align: center;
+	padding-top:10px;
+	color:white;
+	font-family: 'Roboto', sans-serif;
+	font-size:18px;
+	font-weight: 700;
+}
+.load:hover{
+	cursor:pointer;
+	opacity: 0.5;
+}
+a{
+	text-decoration: none;
+}
+.gallery h3{
+	width:1178px;
+	font-size:57.08px;
+	font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif; 
+	text-align:center;
+/*	background-color: aqua;*/
+	color:#121f38;
+	margin:0 auto;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+.images{
+	width:1366px;
+	height:1115px;
+/*	background-color: cornflowerblue;*/
+	margin: 0 auto;
+	postion:relative;
+}
+.img1 img{
+	width:328.21px;
+	height:856.35px;
+	float:left;
+}
+.img2 img{
+	width:444px;
+	height:428px;
+	float:left;
+	margin-left: 17.90px;
+	margin-right: 17.90px;
+}
+.img3 img{
+	width:558px;
+	height:428px;
+}
+.img4 img{
+	width:556.14px;
+	height:662.26px;
+	float:left;
+	margin-top: 17.90px;
+	margin-left: 17.90px;
+	margin-right: 18.5px;
+}
+.img5 img{
+	width:444.01px;
+	height:365px;
+	margin-top: 17.90px;
+}
+.img6 img{
+	width:447px;
+	height:279px;
+	float:right;
+	margin-top:-280px;
+}
+.img7 img{
+	width:331px;
+	height:234px;
+	float:left;
+	margin-top:-234px;
+}
+.wrap{
+    width:100%;
+	background-color: #A8E2F1;
+}
+.footer{
+	width:1366px;
+	height:578.85px;
+	background-color: #A8E2F1;
+	margin: 0 auto;
+	margin-top:50px;
+	position: relative;
+}
+.logo1{
+	width:305px;
+	height:223px;
+/*	background-color: darkgrey;*/
+	position:absolute;
+	top:60px;
+	left:50px;
+}
+.logo1 img{
+	width:305px;
+	height:223px;
+	background-size: cover;
+}
+.socialmedia ul{
+	width:380px;
+	height:70px;
+/*	background-color:red;*/
+	position:absolute;
+	top:320px;
+	left:30px;
+}
+.wa li{
+	width:60px;
+	height:60px;
+	list-style: none;
+	border-radius: 50px;
+	display: inline-block;
+/*	background-color: #c78665;*/
+	margin-left:10px;
+}
+.wa li:hover{
+	background-color: #c78665;
+}
+.wa img{
+	width:44px;
+	height:50px;
+	margin-left:8px;
+	margin-top: 3px;
+/*	background-color: aqua;*/
+}
+.fb li{
+	width:60px;
+	height:60px;
+	list-style: none;
+	border-radius: 50px;
+/*	background-color: #c78665;*/
+	display: inline-block;
+	margin-left:10px;
+}
+.fb li:hover{
+	background-color: #c78665;
+}
+.fb img{
+	width:44px;
+	height:50px;
+	margin-left:8px;
+	margin-top: 3px;
+/*	background-color: aqua;*/
+}
+.yt li{
+	width:60px;
+	height:60px;
+	list-style: none;
+	border-radius: 50px;
+/*	background-color: #c78665;*/
+	display: inline-block;
+	margin-left:10px;
+}
+.yt li:hover{
+	background-color: #c78665;
+}
+.yt img{
+	width:44px;
+	height:50px;
+	margin-left:8px;
+	margin-top: 3px;
+/*	background-color: aqua;*/
+}
+.tw li{
+	width:60px;
+	height:60px;
+	list-style: none;
+	border-radius: 50px;
+/*	background-color: #c78665;*/
+	display: inline-block;
+	margin-left:10px;
+}
+.tw li:hover{
+	background-color: #c78665;
+}
+.tw img{
+	width:44px;
+	height:50px;
+	margin-left:8px;
+	margin-top: 3px;
+/*	background-color: aqua;*/
+}
+.in li{
+	width:60px;
+	height:60px;
+	list-style: none;
+	border-radius: 50px;
+/*	background-color: #c78665;*/
+	display: inline-block;
+	margin-left:10px;
+}
+.in li:hover{
+	background-color: #c78665;
+}
+.in img{
+	width:44px;
+	height:50px;
+	margin-left:8px;
+	margin-top: 3px;
+/*	background-color: aqua;*/
+}
+.getin{
+	width: 400px;
+	height:350px;
+	position:absolute;
+	left:500px;
+	top:60px;
+}
+.getin h4{
+	width:300px;
+	font-size:35px;
+	color:#121f38;
+	font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif; 
+	font-weight:600;
+	margin-left: 70px;
+	padding-bottom: 25px;
+}
+.locicon{
+	width:60px;
+	height:60px;
+	border-radius: 50px;
+	background-color: #c78665;
+	float:left;
+}
+.locicon img{
+	width:44px;
+	height:50px;
+	margin-left:8px;
+	margin-top: 3px;
+}
+.loc p{
+	width:350px;
+	margin-left: 70px;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	padding-top:10px;
+	color:white;
+}
+.callicon{
+	width:60px;
+	height:60px;
+	border-radius: 50px;
+	background-color: #c78665;
+	margin-top: 30px;
+}
+.callicon img{
+	width:44px;
+	height:50px;
+	margin-left:8px;
+	margin-top: 3px;
+}
+.call p{
+	width:350px;
+	margin-left: 70px;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	margin-top: -45px;
+	color:white;
+}
+.mailicon{
+	width:60px;
+	height:60px;
+	border-radius: 50px;
+	background-color: #c78665;
+	margin-top: 50px;
+}
+.mailicon img{
+	width:44px;
+	height:50px;
+	margin-left:8px;
+	margin-top: 3px;
+}
+.mail p{
+	width:350px;
+	margin-left: 70px;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	margin-top: -43px;
+	color:white;
+}
+.links{
+	width: 385px;
+	height:300px;
+	position: absolute;
+	left:480px;
+	top:0px;
+}
+.links h3{
+	width:300px;
+	font-size:35px;
+	padding-bottom: 25px;
+	color:#121f38;
+	font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif; 
+	font-weight:600;
+}
+.linka ul{
+	width: 150px;
+	height:250px;
+	font-size: 30px;
+	line-height:80px;
+}
+.linka ul li{
+	list-style: none;
+	color:white;
+	font-family: 'Roboto', sans-serif;
+	font-size:24px;
+}
+.linka ul li a{
+	text-decoration: none;
+	color: white;
+}
+.linkb ul{
+	width: 150px;
+	height:250px;
+	font-size: 30px;
+	line-height:80px;
+	margin-left: 80px;
+}
+.linkb ul li{
+	list-style: none;
+	color:white;
+	font-family: 'Roboto', sans-serif;
+	font-size:24px;
+}
+.linkb ul li a{
+	text-decoration: none;
+	color: white;
+}
+.linka, .linkb{
+	display: inline-block;
+}
+.copyrights{
+	width:550px;
+	height:20px;
+	font-size:18px;
+	font-family: 'Roboto', sans-serif;
+	margin-top:130px;
+	margin-left: 330px;
+	color:#121f38;
+}
+

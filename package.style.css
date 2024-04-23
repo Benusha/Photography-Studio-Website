@@ -1,0 +1,792 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+	margin:0;
+	padding:0;
+}
+.navbox{
+	width:100%;
+	height:180px;
+/*	background-color: aqua;*/
+	margin: 0 auto;
+	box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 0.3);
+}
+.nav{
+	width:1266px;
+	height:200px;
+/*	background-color: blue;*/
+	margin: 0 auto;
+	display:flex;
+	justify-content: space-between;
+}
+.nava{
+	width:440px;
+	height: 100px;
+/*	background-color: red;*/
+/*	float: left;*/
+	padding-top: 104px;
+}
+.nava ul{
+	display:flex;
+	justify-content: space-between;
+}
+.nava ul li{
+	list-style: none;
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size:24px;
+/*	padding:30px;*/
+}
+.nava ul li a{
+	text-decoration: none;
+	color: #121f38;
+}
+.nava ul li:nth-child(1)::after{
+	width:100%;
+	height:2px;
+	content:'';
+	display: block;
+	transform: scale(0);
+	background-color:#c78665;
+	
+}
+.nava ul li:nth-child(2)::after{
+	width:100%;
+	height:2px;
+	content:'';
+	display: block;
+	transform: scale(0);
+	background-color:#c78665;
+	
+}
+.nava ul li:nth-child(3)::after{
+	width:100%;
+	height:2px;
+	content:'';
+	display: block;
+	transform: scale(0);
+	background-color:#c78665;
+	
+}
+.nava ul li:nth-child(1):hover::after{
+	transform: scale(1);
+}
+.nava ul li:nth-child(2):hover::after{
+	transform: scale(1);
+}
+.nava ul li:nth-child(3):hover::after{
+	transform: scale(1);
+}
+.logo{
+	width:172px;
+	height:126px;
+/*	background-color: aqua;*/
+	margin: 0 auto;
+	padding-top: 30px;
+}
+.logo img{
+	width:172px;
+	height:126px;
+}
+.navb{
+	width:440px;
+	height: 100px;
+/*	background-color: red;*/
+/*	float:left;*/
+	padding-top: 107px;
+}
+.navb ul{
+	display:flex;
+	justify-content: space-between;
+}
+.navb ul li{
+	list-style: none;
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size:24px;
+/*	padding:30px;*/
+}
+.navb ul li a{
+	text-decoration: none;
+	color: #121f38;
+}
+.active::after{
+	width:100%;
+	height:2px;
+	content:'';
+	display: block;
+	transform: scale(1);
+	background-color:#c78665;
+}
+.navb ul li:nth-child(1)::after{
+	width:100%;
+	height:2px;
+	content:'';
+	display: block;
+	transform: scale(0);
+	background-color:#c78665;
+	
+}
+.navb ul li:nth-child(3)::after{
+	width:100%;
+	height:2px;
+	content:'';
+	display: block;
+	transform: scale(0);
+	background-color:#c78665;
+	
+}
+.navb ul li:nth-child(1):hover::after{
+	transform: scale(1);
+}
+.navb ul li:nth-child(3):hover::after{
+	transform: scale(1);
+}
+.wedding{
+	width:1366px;
+	height:1080px;
+/*	background-color:violet;*/
+	position: relative;
+	margin:0 auto;
+	margin-top: 50px;
+}
+.banner{
+	width:1366px;
+	height:683px;
+	background-image: url("image/MAHI0831.png");
+	background-size: cover;
+}
+.banner img{
+	width:1366px;
+	height:683px;
+}
+.banner h3{
+	width:1000px;
+	height:30px;
+/*	background-color: blue;*/
+	position:absolute;
+	top:420px;
+	left:50px;
+	font-size:57.08px;
+	font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif; 
+	color:white;
+}
+.content1{
+	width:1166px;
+	height:917px;
+	position:absolute;
+    top:500px;
+	left:100px;
+    display: flex;
+	justify-content: space-between;
+}
+.box1 {
+	width:380px;
+	height:480px;
+	border-radius:15px;
+	color:rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 3px 6px 3px;
+}
+.boxa{
+	width:380px;
+	height:183px;
+	border-radius:15px;
+	background-color:rgba(168, 226, 241, 0.3);
+}
+.boxa h2{
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Roboto', sans-serif; 
+	color:white;
+}
+/*
+.boxa h3{
+	background-color: blue;
+	margin-top: 20px;
+	text-align: center;
+	font-size: 35px;
+	color:white;
+}
+*/
+.boxa p{
+	font-size: 55px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif; 
+	color:#121f38;
+}
+.boxa button{
+	font-size:18px;
+	text-align: center;
+	padding:10px;
+	margin-left:140px;
+	border:none;
+	border-radius: 5px;
+	background-color: #c78665;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	color:white;
+}
+.boxa button:hover{
+	opacity:0.5;
+	cursor:pointer;
+}
+.box1 ul{
+	padding-top:12px;
+}
+.box1 ul li{
+	list-style:none;
+	margin-bottom: 12px;
+	margin-left:60px;
+	font-size: 24px;
+	color:#04070E;
+	font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
+}
+.box2 {
+	width:380px;
+	height:530px;
+	border-radius:15px;
+	color:rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 3px 6px 3px;
+}
+.box2 ul{
+	padding-top: 12px;
+}
+.box2 ul li{
+	list-style:none;
+	margin-bottom: 12px;
+	margin-left:60px;
+	font-size: 24px;
+	color:#04070E;
+	font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
+}
+.box3{
+	width:380px;
+	height:580px;
+	border-radius:15px;
+	color:rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 3px 6px 3px;
+}
+.box3 ul{
+	padding-top: 12px;
+}
+.box3 ul li{
+	list-style:none;
+	margin-bottom: 12px;
+	margin-left:60px;
+	font-size: 24px;
+	color:#04070E;
+	font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
+}
+.box1, .box2, .box3{
+	display: inline-block;
+} 
+.engag{
+	width:1366px;
+	height:1080px;
+/*	background-color:violet;*/
+	position: relative;
+	margin:0 auto;
+	margin-top: 50px;
+}
+.banner1{
+	width:1366px;
+	height:683px;
+	background-image: url("image/6438.jpg");
+	background-size: cover;
+}
+.banner1 img{
+	width:1366px;
+	height:683px;
+}
+.banner1 h3{
+	width:1000px;
+	height:30px;
+/*	background-color: blue;*/
+	position:absolute;
+	top:420px;
+	left:50px;
+	font-size:57.08px;
+	font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
+	color:white;
+}
+.content2{
+	width:1166px;
+	height:917px;
+	position:absolute;
+    top:500px;
+	left:100px;
+    display: flex;
+	justify-content: space-between;
+}
+.box4 {
+	width:380px;
+	height:480px;
+	border-radius:15px;
+	color:rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 3px 6px 3px;
+}
+.boxa{
+	width:380px;
+	height:183px;
+	border-radius:15px;
+	background-color:rgba(168, 226, 241, 0.3);
+}
+.boxa p{
+	font-size: 70px;
+	text-align: center;
+	color:#121f38;
+}
+.box4 ul{
+	padding-top:12px;
+}
+.box4 ul li{
+	list-style:none;
+	margin-bottom: 12px;
+	margin-left:60px;
+	font-size: 24px;
+	color:#04070E;
+	font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
+}
+.box5 {
+	width:380px;
+	height:530px;
+	border-radius:15px;
+	color:rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 3px 6px 3px;
+}
+.box5 ul{
+	padding-top: 12px;
+}
+.box5 ul li{
+	list-style:none;
+	margin-bottom: 12px;
+	margin-left:60px;
+	font-size: 24px;
+	color:#04070E;
+	font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
+}
+.box6{
+	width:380px;
+	height:580px;
+	border-radius:15px;
+	color:rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 3px 6px 3px;
+}
+.box6 ul{
+	padding-top: 12px;
+}
+.box6 ul li{
+	list-style:none;
+	margin-bottom: 12px;
+	margin-left:60px;
+	font-size: 24px;
+	color:#04070E;
+	font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
+}
+.box4, .box5, .box6{
+	display: inline-block;
+}
+.pre{
+	width:1366px;
+	height:1080px;
+/*	background-color:violet;*/
+	position: relative;
+	margin:0 auto;
+	margin-top: 50px;
+}
+.banner2{
+	width:1366px;
+	height:683px;
+	background-image:url("image/d55fb293-b44e-4963-9325-ee9349f7f5de_rt_auto-cr_0.2376.6312.5536-rs_768_waifu2x_photo_noise3_scale_tta_1.png");
+	background-size: cover;
+}
+.banner2 img{
+	width:1366px;
+	height:683px;
+}
+.banner2 h3{
+	width:1000px;
+	height:30px;
+/*	background-color: blue;*/
+	position:absolute;
+	top:420px;
+	left:50px;
+	font-size:57.08px;
+	font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
+	color:white;
+}
+.content3{
+	width:1166px;
+	height:917px;
+	position:absolute;
+    top:500px;
+	left:100px;
+    display: flex;
+	justify-content: space-between;
+}
+.box7 {
+	width:380px;
+	height:480px;
+	border-radius:15px;
+	color:rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 3px 6px 3px;
+}
+.boxa{
+	width:380px;
+	height:183px;
+	border-radius:15px;
+	background-color:rgba(168, 226, 241, 0.3);
+}
+.boxa p{
+	font-size: 70px;
+	text-align: center;
+	color:#121f38;
+}
+.box7 ul{
+	padding-top:12px;
+}
+.box7 ul li{
+	list-style:none;
+	margin-bottom: 12px;
+	margin-left:60px;
+	font-size: 24px;
+	color:#04070E;
+	font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
+}
+.box8 {
+	width:380px;
+	height:530px;
+	border-radius:15px;
+	color:rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 3px 6px 3px;
+}
+.box8 ul{
+	padding-top: 12px;
+}
+.box8 ul li{
+	list-style:none;
+	margin-bottom: 12px;
+	margin-left:60px;
+	font-size: 24px;
+	color:#04070E;
+	font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
+}
+.box9{
+	width:380px;
+	height:580px;
+	border-radius:15px;
+	color:rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 3px 6px 3px;
+}
+.box9 ul{
+	padding-top: 12px;
+}
+.box9 ul li{
+	list-style:none;
+	margin-bottom: 12px;
+	margin-left:60px;
+	font-size: 24px;
+	color:#04070E;
+	font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
+}
+.box7, .box8, .box9{
+	display: inline-block;
+}
+/*
+.loadb{
+	width:120px;
+	height:30px;
+	margin: 0 auto;
+	margin-top:50px;
+}
+*/
+.loadb p{
+	font-size:18px;
+	text-align: center;
+	padding:10px;
+	width:200px;
+	border-radius:5px;
+	border:none;
+	background-color: #c78665;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	color:white;
+	margin:0 auto;
+}
+.loadb p:hover{
+	background-color:green;
+}
+.wrap{
+    width:100%;
+	background-color: #A8E2F1;
+}
+.footer{
+	width:1366px;
+	height:578.85px;
+	background-color: #A8E2F1;
+	margin: 0 auto;
+	margin-top:50px;
+	position: relative;
+}
+.logo1{
+	width:305px;
+	height:223px;
+/*	background-color: darkgrey;*/
+	position:absolute;
+	top:60px;
+	left:50px;
+}
+.logo1 img{
+	width:305px;
+	height:223px;
+	background-size: cover;
+}
+.socialmedia ul{
+	width:380px;
+	height:70px;
+/*	background-color:red;*/
+	position:absolute;
+	top:320px;
+	left:30px;
+}
+.wa li{
+	width:60px;
+	height:60px;
+	list-style: none;
+	border-radius: 50px;
+	display: inline-block;
+/*	background-color: #c78665;*/
+	margin-left:10px;
+}
+.wa li:hover{
+	background-color: #c78665;
+}
+.wa img{
+	width:44px;
+	height:50px;
+	margin-left:8px;
+	margin-top: 3px;
+/*	background-color: aqua;*/
+}
+.fb li{
+	width:60px;
+	height:60px;
+	list-style: none;
+	border-radius: 50px;
+/*	background-color: #c78665;*/
+	display: inline-block;
+	margin-left:10px;
+}
+.fb li:hover{
+	background-color: #c78665;
+}
+.fb img{
+	width:44px;
+	height:50px;
+	margin-left:8px;
+	margin-top: 3px;
+/*	background-color: aqua;*/
+}
+.yt li{
+	width:60px;
+	height:60px;
+	list-style: none;
+	border-radius: 50px;
+/*	background-color: #c78665;*/
+	display: inline-block;
+	margin-left:10px;
+}
+.yt li:hover{
+	background-color: #c78665;
+}
+.yt img{
+	width:44px;
+	height:50px;
+	margin-left:8px;
+	margin-top: 3px;
+/*	background-color: aqua;*/
+}
+.tw li{
+	width:60px;
+	height:60px;
+	list-style: none;
+	border-radius: 50px;
+/*	background-color: #c78665;*/
+	display: inline-block;
+	margin-left:10px;
+}
+.tw li:hover{
+	background-color: #c78665;
+}
+.tw img{
+	width:44px;
+	height:50px;
+	margin-left:8px;
+	margin-top: 3px;
+/*	background-color: aqua;*/
+}
+.in li{
+	width:60px;
+	height:60px;
+	list-style: none;
+	border-radius: 50px;
+/*	background-color: #c78665;*/
+	display: inline-block;
+	margin-left:10px;
+}
+.in li:hover{
+	background-color: #c78665;
+}
+.in img{
+	width:44px;
+	height:50px;
+	margin-left:8px;
+	margin-top: 3px;
+/*	background-color: aqua;*/
+}
+.getin{
+	width: 400px;
+	height:350px;
+	position:absolute;
+	left:500px;
+	top:60px;
+}
+.getin h4{
+	width:300px;
+	font-size:35px;
+	color:#121f38;
+	font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
+	font-weight: 600;
+	margin-left: 70px;
+	padding-bottom: 25px;
+}
+.locicon{
+	width:60px;
+	height:60px;
+	border-radius: 50px;
+	background-color: #c78665;
+	float:left;
+}
+.locicon img{
+	width:44px;
+	height:50px;
+	margin-left:8px;
+	margin-top: 3px;
+}
+.loc p{
+	width:350px;
+	margin-left: 70px;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	padding-top:10px;
+	color:white;
+}
+.callicon{
+	width:60px;
+	height:60px;
+	border-radius: 50px;
+	background-color: #c78665;
+	margin-top: 30px;
+}
+.callicon img{
+	width:44px;
+	height:50px;
+	margin-left:8px;
+	margin-top: 3px;
+}
+.call p{
+	width:350px;
+	margin-left: 70px;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	margin-top: -45px;
+	color:white;
+}
+.mailicon{
+	width:60px;
+	height:60px;
+	border-radius: 50px;
+	background-color: #c78665;
+	margin-top: 50px;
+}
+.mailicon img{
+	width:44px;
+	height:50px;
+	margin-left:8px;
+	margin-top: 3px;
+}
+.mail p{
+	width:350px;
+	margin-left: 70px;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	margin-top: -43px;
+	color:white;
+}
+.links{
+	width: 385px;
+	height:300px;
+/*	background-color: green;*/
+	position: absolute;
+	left:480px;
+	top:0px;
+}
+.links h3{
+	width:300px;
+	font-size:35px;
+/*	color:#121f38;*/
+	padding-bottom: 25px;
+	font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
+	font-weight: 600;
+/*	float: left;*/
+/*	background-color: aqua;*/
+}
+.linka ul{
+	width: 150px;
+	height:250px;
+	font-size: 30px;
+	line-height:80px;
+}
+.linka ul li{
+	list-style: none;
+	color:white;
+    font-family: 'Roboto', sans-serif;
+	font-size:24px;
+}
+.linka ul li a{
+	text-decoration: none;
+	color: white;
+}
+.linkb ul{
+	width: 150px;
+	height:250px;
+	font-size: 30px;
+	line-height:80px;
+	margin-left: 80px;
+}
+.linkb ul li{
+	list-style: none;
+	color:white;
+    font-family: 'Roboto', sans-serif;
+	font-size:24px;
+}
+.linkb ul li a{
+	text-decoration: none;
+	color: white;
+}
+.linka, .linkb{
+	display: inline-block;
+}
+.copyrights{
+	width:550px;
+	height:20px;
+	font-size:18px;
+	margin-top:130px;
+	margin-left: 330px;
+	color:#121f38;
+	font-family: 'Roboto', sans-serif;
+}
+

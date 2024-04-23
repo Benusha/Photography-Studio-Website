@@ -1,0 +1,632 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+	margin:0;
+	padding:0;
+}
+.navbox{
+	width:100%;
+	height:180px;
+/*	background-color: aqua;*/
+	margin: 0 auto;
+	box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 0.3);
+}
+.nav{
+	width:1266px;
+	height:200px;
+/*	background-color: blue;*/
+	margin: 0 auto;
+	display:flex;
+	justify-content: space-between;
+}
+.nava{
+	width:440px;
+	height: 100px;
+/*	background-color: red;*/
+/*	float: left;*/
+	padding-top: 104px;
+}
+.nava ul{
+	display:flex;
+	justify-content: space-between;
+}
+.nava ul li{
+	list-style: none;
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size:24px;
+/*	padding:30px;*/
+}
+.nava ul li a{
+	text-decoration: none;
+	color: #121f38;
+}
+.nava ul li:nth-child(1)::after{
+	width:100%;
+	height:2px;
+	content:'';
+	display: block;
+	transform: scale(0);
+	background-color:#c78665;
+	
+}
+.nava ul li:nth-child(2)::after{
+	width:100%;
+	height:2px;
+	content:'';
+	display: block;
+	transform: scale(0);
+	background-color:#c78665;
+	
+}
+.nava ul li:nth-child(1):hover::after{
+	transform: scale(1);
+}
+.nava ul li:nth-child(2):hover::after{
+	transform: scale(1);
+}
+.active::after{
+	width:100%;
+	height:2px;
+	content:'';
+	display: block;
+	transform: scale(1);
+	background-color:#c78665;
+}
+.logo{
+	width:172px;
+	height:126px;
+/*	background-color: aqua;*/
+	margin: 0 auto;
+	padding-top: 30px;
+}
+.logo img{
+	width:172px;
+	height:126px;
+}
+.navb{
+	width:440px;
+	height: 100px;
+/*	background-color: red;*/
+/*	float:left;*/
+	padding-top: 107px;
+}
+.navb ul{
+	display:flex;
+	justify-content: space-between;
+}
+.navb ul li{
+	list-style: none;
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size:24px;
+/*	padding:30px;*/
+}
+.navb ul li a{
+	text-decoration: none;
+	color: #121f38;
+}
+.navb ul li:nth-child(1)::after{
+	width:100%;
+	height:2px;
+	content:'';
+	display: block;
+	transform: scale(0);
+	background-color:#c78665;
+	
+}
+.navb ul li:nth-child(2)::after{
+	width:100%;
+	height:2px;
+	content:'';
+	display: block;
+	transform: scale(0);
+	background-color:#c78665;
+	
+}
+.navb ul li:nth-child(3)::after{
+	width:100%;
+	height:2px;
+	content:'';
+	display: block;
+	transform: scale(0);
+	background-color:#c78665;
+	
+}
+.navb ul li:nth-child(1):hover::after{
+	transform: scale(1);
+}
+.navb ul li:nth-child(2):hover::after{
+	transform: scale(1);
+}
+.navb ul li:nth-child(3):hover::after{
+	transform: scale(1);
+}
+.banner{
+	width:100%;
+	height:917px;
+	margin:0 auto;
+	background-color: blue;
+	background-size: cover;
+	background-image: url("image/service banner.png");
+	margin-top: 50px;
+}
+.banner img{
+	width:100%;
+	height:917px;
+}
+.services{
+	width:1178px;
+	height:2120px;
+/*	background-color: red;*/
+	margin: 0 auto;
+	position: relative;
+	margin-top: 50px;
+}
+.services h3{
+	width:1178px;
+	font-size:57.08px;
+	text-align:center;
+/*	background-color: aqua;*/
+	color:#121f38;
+	font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif; 
+	padding-bottom:50px;
+	margin: 0 auto;
+}
+.candidimg{
+	width:577px;
+	height:384px;
+/*	background-color:orange; */
+	position: absolute;
+}
+.candidimg img{
+	width:577px;
+	height:384px;
+}
+
+.candid h4{
+	font-size:40px;
+	font-weight: 600;
+	font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif; 
+	color:#c78665;
+}
+.candid p{
+	margin-top:40px;
+	font-family: 'Roboto', sans-serif;
+	font-size:24px;
+	color:#04070E;
+}
+/*
+.candid{
+	width:530px;
+	height:384px;
+	position: absolute;
+	left:600px;
+	top:180px;
+
+}
+*/
+.candid{
+	width:530px;
+	height:384px;
+	position: absolute;
+	left:630px;
+	top:160px;
+/*	background-color:orange; */
+}
+.traditionalimg{
+	width:577px;
+	height:384px;
+	float:right;
+	margin-top: 400px;
+}
+.traditionalimg img{
+	width:577px;
+	height:384px;
+	
+}
+.traditional h4{
+	font-size:40px;
+	color:#c78665;
+	margin-top:450px;
+	font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
+	font-weight: 600;
+}
+.traditional p{
+	font-size:24px;
+	margin-top:40px;
+	font-family: 'Roboto', sans-serif;
+	color:#04070E;
+	margin-top:40px;
+}
+.traditional{
+	width:530px;
+	height:360px;
+	margin-left:50px;
+/*	background-color:orange;*/
+}
+.filmimg{
+	width:577px;
+	height:384px;
+/*	background-color:orange; */
+	position: absolute;
+}
+.filmimg img{
+	width:577px;
+	height:384px;
+}
+
+.film h4{
+	font-size:40px;
+	font-weight: 600;
+	font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif; 
+	color:#c78665;
+	margin-top:850px;
+}
+.film p{
+	margin-top:40px;
+	font-family: 'Roboto', sans-serif;
+	font-size:24px;
+	color:#04070E;
+}
+.film{
+	width:530px;
+	height:384px;
+	position: absolute;
+	left:630px;
+	top:130px;
+
+}
+.outdoorimg{
+	width:577px;
+	height:384px;
+	float:right;
+	margin-top: 400px;
+}
+.outdoorimg img{
+	width:577px;
+	height:384px;
+	
+}
+.outdoor h4{
+	font-size:40px;
+	color:#c78665;
+	margin-top:450px;
+	font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
+	font-weight: 600;
+}
+
+.outdoor p{
+	margin-top:40px;
+	font-family: 'Roboto', sans-serif;
+	font-size:24px;
+	color:#04070E;
+}
+.outdoor{
+	width:530px;
+	height:360px;
+	margin-left:50px;
+/*	background-color:orange;*/
+}
+.droneimg{
+	width:577px;
+	height:384px;
+/*	background-color:orange; */
+	position: absolute;
+}
+.droneimg img{
+	width:577px;
+	height:384px;
+}
+
+.drone h4{
+	font-size:40px;
+	font-weight: 600;
+	font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif; 
+	color:#c78665;
+	margin-top:850px;
+}
+.drone p{
+	margin-top:40px;
+	font-family: 'Roboto', sans-serif;
+	font-size:24px;
+	color:#04070E;
+}
+.drone{
+	width:530px;
+	height:384px;
+	position: absolute;
+	left:630px;
+	top:930px;
+}
+.view{
+	width:150px;
+	height:40px;
+	background-color:#c78665;
+	margin: 0 auto;
+	border-radius: 5px;
+	text-align: center;
+	line-height:40px;
+    /*	margin-top:10px;*/
+}
+.view p{
+	font-size:18px;
+	font-weight: 700;
+	color:white;
+	font-family: 'Roboto', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+
+.wrap{
+    width:100%;
+	background-color: #A8E2F1;
+}
+.footer{
+	width:1366px;
+	height:578.85px;
+	background-color: #A8E2F1;
+	margin: 0 auto;
+	margin-top:50px;
+	position: relative;
+}
+.logo1{
+	width:305px;
+	height:223px;
+/*	background-color: darkgrey;*/
+	position:absolute;
+	top:60px;
+	left:50px;
+}
+.logo1 img{
+	width:305px;
+	height:223px;
+	background-size: cover;
+}
+.socialmedia ul{
+	width:380px;
+	height:70px;
+/*	background-color:red;*/
+	position:absolute;
+	top:320px;
+	left:30px;
+}
+.wa li{
+	width:60px;
+	height:60px;
+	list-style: none;
+	border-radius: 50px;
+	display: inline-block;
+/*	background-color: #c78665;*/
+	margin-left:10px;
+}
+.wa li:hover{
+	background-color: #c78665;
+}
+.wa img{
+	width:44px;
+	height:50px;
+	margin-left:8px;
+	margin-top: 3px;
+/*	background-color: aqua;*/
+}
+.fb li{
+	width:60px;
+	height:60px;
+	list-style: none;
+	border-radius: 50px;
+/*	background-color: #c78665;*/
+	display: inline-block;
+	margin-left:10px;
+}
+.fb li:hover{
+	background-color: #c78665;
+}
+.fb img{
+	width:44px;
+	height:50px;
+	margin-left:8px;
+	margin-top: 3px;
+/*	background-color: aqua;*/
+}
+.yt li{
+	width:60px;
+	height:60px;
+	list-style: none;
+	border-radius: 50px;
+/*	background-color: #c78665;*/
+	display: inline-block;
+	margin-left:10px;
+}
+.yt li:hover{
+	background-color: #c78665;
+}
+.yt img{
+	width:44px;
+	height:50px;
+	margin-left:8px;
+	margin-top: 3px;
+/*	background-color: aqua;*/
+}
+.tw li{
+	width:60px;
+	height:60px;
+	list-style: none;
+	border-radius: 50px;
+/*	background-color: #c78665;*/
+	display: inline-block;
+	margin-left:10px;
+}
+.tw li:hover{
+	background-color: #c78665;
+}
+.tw img{
+	width:44px;
+	height:50px;
+	margin-left:8px;
+	margin-top: 3px;
+/*	background-color: aqua;*/
+}
+.in li{
+	width:60px;
+	height:60px;
+	list-style: none;
+	border-radius: 50px;
+/*	background-color: #c78665;*/
+	display: inline-block;
+	margin-left:10px;
+}
+.in li:hover{
+	background-color: #c78665;
+}
+.in img{
+	width:44px;
+	height:50px;
+	margin-left:8px;
+	margin-top: 3px;
+/*	background-color: aqua;*/
+}
+.getin{
+	width: 400px;
+	height:350px;
+	position:absolute;
+	left:500px;
+	top:60px;
+}
+.getin h4{
+	width:300px;
+	font-size:35px;
+	color:#121f38;
+	font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif; 
+	font-weight:600;
+	margin-left: 70px;
+	padding-bottom: 25px;
+}
+.locicon{
+	width:60px;
+	height:60px;
+	border-radius: 50px;
+	background-color: #c78665;
+	float:left;
+}
+.locicon img{
+	width:44px;
+	height:50px;
+	margin-left:8px;
+	margin-top: 3px;
+}
+.loc p{
+	width:350px;
+	margin-left: 70px;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	padding-top:10px;
+	color:white;
+}
+.callicon{
+	width:60px;
+	height:60px;
+	border-radius: 50px;
+	background-color: #c78665;
+	margin-top: 30px;
+}
+.callicon img{
+	width:44px;
+	height:50px;
+	margin-left:8px;
+	margin-top: 3px;
+}
+.call p{
+	width:350px;
+	margin-left: 70px;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	margin-top: -45px;
+	color:white;
+}
+.mailicon{
+	width:60px;
+	height:60px;
+	border-radius: 50px;
+	background-color: #c78665;
+	margin-top: 50px;
+}
+.mailicon img{
+	width:44px;
+	height:50px;
+	margin-left:8px;
+	margin-top: 3px;
+}
+.mail p{
+	width:350px;
+	margin-left: 70px;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	margin-top: -43px;
+	color:white;
+}
+.links{
+	width: 385px;
+	height:300px;
+	position: absolute;
+	left:480px;
+	top:0px;
+}
+.links h3{
+	width:300px;
+	font-size:35px;
+	padding-bottom: 25px;
+	color:#121f38;
+	font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif; 
+	font-weight:600;
+}
+.linka ul{
+	width: 150px;
+	height:250px;
+	font-size: 30px;
+	line-height:80px;
+}
+.linka ul li{
+	list-style: none;
+	color:white;
+	font-family: 'Roboto', sans-serif;
+	font-size:24px;
+}
+.linka ul li a{
+	text-decoration: none;
+	color: white;
+}
+.linkb ul{
+	width: 150px;
+	height:250px;
+	font-size: 30px;
+	line-height:80px;
+	margin-left: 80px;
+}
+.linkb ul li{
+	list-style: none;
+	color:white;
+	font-family: 'Roboto', sans-serif;
+	font-size:24px;
+}
+.linkb ul li a{
+	text-decoration: none;
+	color: white;
+}
+.linka, .linkb{
+	display: inline-block;
+}
+.copyrights{
+	width:550px;
+	height:20px;
+	font-size:18px;
+	font-family: 'Roboto', sans-serif;
+	margin-top:130px;
+	margin-left: 330px;
+	color:#121f38;
+}
+
